@@ -1,0 +1,7 @@
+bca_reports.report_list:
+  path: '/reports'
+  defaults:
+    _controller: '\Drupal\bca_reports\Controller\ReportController::listReports'
+    _title: 'Report List'
+  requirements:
+    _permission: 'access content'

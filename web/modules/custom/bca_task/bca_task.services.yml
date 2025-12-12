@@ -1,0 +1,8 @@
+services:
+  bca_task.report_entitlement:
+    class: Drupal\bca_task\Service\ReportEntitlementService
+    arguments:
+      - '@http_client'
+      - '@cache.default'
+      - '@logger.factory'
+      - '@config.factory'

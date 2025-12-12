@@ -1,0 +1,5 @@
+name: 'Task Module'
+description: 'A sample module for pseudo-coding exercises.'
+type: module
+core_version_requirement: ^10
+package: 'Interview Sample'

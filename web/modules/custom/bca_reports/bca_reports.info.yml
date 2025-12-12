@@ -1,0 +1,5 @@
+name: 'BCA Reports'
+description: 'Provides report listing and management functionality.'
+type: module
+core_version_requirement: ^10
+package: 'Custom'
