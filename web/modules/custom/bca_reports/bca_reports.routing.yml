@@ -5,3 +5,27 @@ bca_reports.report_list:
     _title: 'Report List'
   requirements:
     _permission: 'access content'
+
+bca_reports.report_detail:
+  path: '/report/{node}'
+  defaults:
+    _controller: '\Drupal\bca_reports\Controller\ReportController::reportDetail'
+    _title: 'Report Detail'
+  requirements:
+    _permission: 'access content'
+    node: \d+
+
+bca_reports.export:
+  path: '/reports/export'
+  defaults:
+    _controller: '\Drupal\bca_reports\Controller\ReportController::exportReports'
+  requirements:
+    _permission: 'access content'
+
+bca_reports.search:
+  path: '/reports/search'
+  defaults:
+    _controller: '\Drupal\bca_reports\Controller\ReportController::searchReports'
+    _title: 'Search Reports'
+  requirements:
+    _permission: 'access content'
