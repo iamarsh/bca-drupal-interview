@@ -39,7 +39,7 @@ A service class with method signatures and pseudo-code for verbal implementation
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bca-drupal-interview.git
+git clone https://github.com/iamarsh/bca-drupal-interview.git
 cd bca-drupal-interview
 ```
 
